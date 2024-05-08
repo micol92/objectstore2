@@ -1,0 +1,14 @@
+{
+    "name": "objstore2-srv",
+    "dependencies": {
+        "express": "latest",
+        "@sap/xsenv": "latest"
+        ,"@sap/xssec": "latest"
+        ,"passport": "latest"
+        ,"@aws-sdk/client-s3": "3.569.0"
+        ,"formidable": "3.5.1"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
