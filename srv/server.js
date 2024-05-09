@@ -7,9 +7,15 @@ const { S3Client, PutObjectCommand, ListObjectsCommand, GetObjectCommand } = req
 
 const regionV = "ap-northeast-2";
 const endPointV = "s3-ap-northeast-2.amazonaws.com";
-const accessKeyIdV = "AKIAY6GRCOJYSZZXFNRI";
-const secretAccessKeyV = "T1LrN0ZIUU9PVkhcrWBR4eXoaW52m72MmYDJ5173";
-const bucketV = "hcp-c2f13906-6aa8-40b9-a18b-e06bb2aec228";
+
+//#please revise your own key.
+const accessKeyIdV = "######";
+
+//#please revise your own key.
+const secretAccessKeyV = "#########";
+
+//#please revise your own key.
+const bucketV = "hcp-######8";
 
 const xsenv = require('@sap/xsenv');
 xsenv.loadEnv();
